@@ -8,17 +8,23 @@ int g_MaxAheadTicks;
 int g_LogTicks;
 float g_TickInterval;
 
+#define PLUGIN_DESCRIPTION "Stops exploits related to tickbase manipulation"
+#define PLUGIN_VERSION "1.0.1"
+
 public Plugin myinfo = {
     name        = "Tickbase Manipulation Fix",
     author      = "Dysphie & backwards",
-    description = "Patches tickbase manipulation (progress trigger bypassing, instant nades, etc)",
-    version     = "1.0.1",
+    description = PLUGIN_DESCRIPTION,
+    version     = PLUGIN_VERSION,
     url         = "https://github.com/dysphie/nmrih-tickbase-fix"
 };
 
 public void OnPluginStart()
 {	
 	g_TickInterval = GetTickInterval();
+
+	CreateConVar("tickbasefix_version", PLUGIN_VERSION, PLUGIN_DESCRIPTION,
+    	FCVAR_SPONLY|FCVAR_NOTIFY|FCVAR_DONTRECORD);
 
 	cvMaxTime = CreateConVar("sm_tickbase_shift_max_seconds", "2.0", "Maximum desync in seconds before client tickbase is re-synced");
 	cvMaxTime.AddChangeHook(OnMaxTimeConVarChanged);
