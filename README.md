@@ -4,7 +4,7 @@ Fixes an exploit where players can "speedhack" to skip or break progress trigger
 
 ## Installation
 - Upgrade to Sourcemod 1.11 or higher, else install [DHooks2](https://github.com/peace-maker/DHooks2/releases) 
-- Download the latest zip in [releases](https://github.com/dysphie/nmrih-tickbase-fix/releases)
+- Download the latest zip in [releases](https://github.com/dysphie/sm-tickbase-manipulation-fix/releases)
 - Extract contents into `addons/sourcemod`
 - Refresh your plugin list (`sm plugins refresh` in server console)
 
@@ -24,7 +24,7 @@ Cvars should be modified in `cfg/plugin.tickbase-manipulation-fix.cfg`
   - [backwards](https://forums.alliedmods.net/member.php?u=246029) for help with coding and testing
   
 ## Game Support
-- This fix should be game-agnostic but I can't maintain gamedata for all of them. If you want support for your game please [submit a pull request](https://github.com/dysphie/nmrih-tickbase-fix/pulls) with valid gamedata or [open an issue](https://github.com/dysphie/nmrih-tickbase-fix/issues).
+- This fix should be game-agnostic but I can't maintain gamedata for all of them. If you want support for your game please [submit a pull request](https://github.com/dysphie/sm-tickbase-manipulation-fix/pulls) with valid gamedata or [open an issue](https://github.com/dysphie/sm-tickbase-manipulation-fix/issues).
 
   Currently tested games:
   - No More Room in Hell
