@@ -1,5 +1,7 @@
 "Games"
 {
+	// CPlayerMove::RunCommand contains string "sv_maxusrcmdprocessticks_warning at server tick" 
+	// in some games and/or references sv_noclipduringpause
 	"#default"
 	{
 		"Signatures"
@@ -13,19 +15,19 @@
 		}
 
 		"Functions"
-        {
-            "CPlayerMove::RunCommand"
-            {
-                "signature"  "CPlayerMove::RunCommand"
-                "callconv"  "thiscall"
-                "return"  "void"
-                "this"  "address"
-                "arguments"
-                {
-                    "player"
-                    {
-                        "type"  "cbaseentity"
-                    }
+		{
+			"CPlayerMove::RunCommand"
+			{
+				"signature"  "CPlayerMove::RunCommand"
+				"callconv"  "thiscall"
+				"return"  "void"
+				"this"  "address"
+				"arguments"
+				{
+					"player"
+					{
+						"type"  "cbaseentity"
+					}
 					"cmd"
 					{
 						"type"	"objectptr"
@@ -34,9 +36,9 @@
 					{
 						"type"	"objectptr"
 					}
-                }
-            }
-        }
+				}
+			}
+		}
 	}
 	"tf"
 	{
@@ -45,6 +47,16 @@
 			"CPlayerMove::RunCommand"
 			{
 				"windows"		"\x55\x8B\xEC\x83\xEC\x1C\x56\x57\x8B\x7D\x08\x89\x4D\xFC\x8B\xB7\x2A\x08\x00\x00"
+			}
+		}
+	}
+	"left4dead2"
+	{
+		"Signatures"
+		{
+			"CPlayerMove::RunCommand"
+			{
+				"windows"		"\x55\x8B\xEC\x53\x56\x8B\x75\x08\x57\x8B\x7D\x0C\x8B\xD9\x8B\x03"
 			}
 		}
 	}
