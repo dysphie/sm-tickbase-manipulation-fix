@@ -16,7 +16,7 @@ public Plugin myinfo = {
     author      = "Dysphie & backwards",
     description = PLUGIN_DESCRIPTION,
     version     = PLUGIN_VERSION,
-    url         = "https://github.com/dysphie/nmrih-tickbase-fix"
+    url         = "https://github.com/dysphie/sm-tickbase-manipulation-fix"
 };
 
 public void OnPluginStart()
