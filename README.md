@@ -1,6 +1,6 @@
 # [NMRiH/Any?] Tickbase Manipulation Fix
 
-Fixes an exploit where players can "speedhack" to skip or break progress triggers, consume no stamina, etc.
+Fixes an exploit where players can "speedhack" to skip or break progress triggers, consume no stamina, or any other action that relies on server time.
 
 ## Installation
 - Download the latest zip in [releases](https://github.com/dysphie/nmrih-tickbase-fix/releases)
