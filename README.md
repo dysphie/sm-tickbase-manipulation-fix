@@ -1,5 +1,7 @@
 # [NMRiH/Any?] Tickbase Manipulation Fix
 
+[AlliedModders thread](https://forums.alliedmods.net/showthread.php?t=339058)
+
 Fixes an exploit where players can "speedhack" to skip or break progress triggers, consume no stamina, and other actions that relies on game time being accurate.
 
 ## Installation
