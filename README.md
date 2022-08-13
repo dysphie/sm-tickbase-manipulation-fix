@@ -1,4 +1,4 @@
-# [NMRiH/Any?] Tickbase Manipulation Fix
+# [ANY] Tickbase Manipulation Fix
 
 [AlliedModders thread](https://forums.alliedmods.net/showthread.php?t=339058)
 
