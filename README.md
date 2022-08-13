@@ -23,11 +23,11 @@ Cvars should be modified in `cfg/plugin.tickbase-manipulation-fix.cfg`
     **Important note: A detection does not mean a client is cheating**. However, repeated offenses in a short period most certainly do 
   
 ## Game Support
-- This fix should be game-agnostic but I can't maintain gamedata for all of them. If you want support for your game please [submit a pull request](https://github.com/dysphie/sm-tickbase-manipulation-fix/pulls) with valid gamedata or [open an issue](https://github.com/dysphie/sm-tickbase-manipulation-fix/issues).
+- No More Room in Hell
+- Team Fortress 2
+- Any other game where the current signature matches, I guess
 
-  Currently supported:
-  - No More Room in Hell
-  - Team Fortress 2 (untested)
+If you want support for your game please [submit a pull request](https://github.com/dysphie/sm-tickbase-manipulation-fix/pulls) with valid gamedata or [open an issue](https://github.com/dysphie/sm-tickbase-manipulation-fix/issues). Hint: The signature for `"CPlayerMove::RunCommand"` can be found in a disassembler by searching for the string `"sv_maxusrcmdprocessticks_warning at server tick %u:"`
 
 ## Special thanks
   - [backwards](https://forums.alliedmods.net/member.php?u=246029) for help with coding and testing
