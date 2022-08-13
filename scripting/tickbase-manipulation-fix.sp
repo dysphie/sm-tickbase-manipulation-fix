@@ -12,26 +12,9 @@ public Plugin myinfo = {
     name        = "Tickbase Manipulation Fix",
     author      = "Dysphie & backwards",
     description = "Patches tickbase manipulation (progress trigger bypassing, instant nades, etc)",
-    version     = "1.0.0",
+    version     = "1.0.1",
     url         = "https://github.com/dysphie/nmrih-tickbase-fix"
 };
-
-public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
-{
-	char gameVersion[32];
-	ConVar cvGameVer = FindConVar("nmrih_version");
-	if (cvGameVer) {
-		cvGameVer.GetString(gameVersion, sizeof(gameVersion));	
-	}
-
-	if (!StrEqual(gameVersion, "1.12.3"))
-	{
-		strcopy(error, err_max, "This issue has been fixed in NMRiH 1.12.4!");
-		return APLRes_Failure;
-	}
-
-	return APLRes_Failure;
-}
 
 public void OnPluginStart()
 {	

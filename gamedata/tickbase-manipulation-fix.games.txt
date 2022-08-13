@@ -1,6 +1,6 @@
 "Games"
 {
-	"nmrih"
+	"#default"
 	{
 		"Signatures"
 		{
