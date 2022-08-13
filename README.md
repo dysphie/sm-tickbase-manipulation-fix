@@ -25,9 +25,9 @@ Cvars should be modified in `cfg/plugin.tickbase-manipulation-fix.cfg`
 ## Game Support
 - This fix should be game-agnostic but I can't maintain gamedata for all of them. If you want support for your game please [submit a pull request](https://github.com/dysphie/sm-tickbase-manipulation-fix/pulls) with valid gamedata or [open an issue](https://github.com/dysphie/sm-tickbase-manipulation-fix/issues).
 
-  Currently tested games:
+  Currently supported:
   - No More Room in Hell
-  - Team Fortress 2
+  - Team Fortress 2 (untested)
 
 ## Special thanks
   - [backwards](https://forums.alliedmods.net/member.php?u=246029) for help with coding and testing
