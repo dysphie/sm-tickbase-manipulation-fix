@@ -13,7 +13,7 @@ public Plugin myinfo = {
     author      = "Dysphie & backwards",
     description = "Patches tickbase manipulation (progress trigger bypassing, instant nades, etc)",
     version     = "1.0.0",
-    url         = ""
+    url         = "https://github.com/dysphie/nmrih-tickbase-fix"
 };
 
 public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
