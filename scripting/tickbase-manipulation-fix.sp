@@ -9,7 +9,7 @@ int g_LogTicks;
 float g_TickInterval;
 
 #define PLUGIN_DESCRIPTION "Stops exploits related to tickbase manipulation"
-#define PLUGIN_VERSION "1.0.3"
+#define PLUGIN_VERSION "1.0.4"
 
 public Plugin myinfo = {
     name        = "Tickbase Manipulation Fix",
