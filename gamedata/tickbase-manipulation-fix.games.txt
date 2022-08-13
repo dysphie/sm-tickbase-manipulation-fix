@@ -40,6 +40,8 @@
 			}
 		}
 	}
+
+	/* Team Fortress 2 */
 	"tf"
 	{
 		"Signatures"
@@ -50,6 +52,8 @@
 			}
 		}
 	}
+
+	/* Left 4 Dead 2 */
 	"left4dead2"
 	{
 		"Signatures"
@@ -57,6 +61,42 @@
 			"CPlayerMove::RunCommand"
 			{
 				"windows"		"\x55\x8B\xEC\x53\x56\x8B\x75\x08\x57\x8B\x7D\x0C\x8B\xD9\x8B\x03"
+			}
+		}
+	}
+
+	/* Contagion */
+	"contagion"
+	{
+		"Signatures"
+		{
+			"CPlayerMove::RunCommand"
+			{
+				"windows"		"\x55\x8B\xEC\x51\x8B\x01\x56\x8B\x75\x08\x57\x8B\x7D\x0C"
+			}
+		}
+	}
+
+	/* Day of Defeat: Source */
+	"dod"
+	{
+		"Signatures"
+		{
+			"CPlayerMove::RunCommand"
+			{
+				"windows"		"\x55\x8B\xEC\x83\xEC\x28\xF3\x0F\x10\x1D\x2A\x2A\x2A\x2A\x56\x57\x8B\x7D\x08"
+			}
+		}
+	}
+
+	/* Pirates, Vikings, and Knights II */
+	"pvkii"
+	{
+		"Signatures"
+		{
+			"CPlayerMove::RunCommand"
+			{
+				"windows"		"\x55\x8B\xEC\x83\xEC\x28\xA1\x2A\x2A\x2A\x2A\x0F\x57\xDB\x56\x57\x8B\x7D\x08"
 			}
 		}
 	}
