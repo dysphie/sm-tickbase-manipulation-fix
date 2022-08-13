@@ -27,6 +27,7 @@ Cvars should be modified in `cfg/plugin.tickbase-manipulation-fix.cfg`
 
   Currently tested games:
   - No More Room in Hell
+  - Team Fortress 2
 
 ## Special thanks
   - [backwards](https://forums.alliedmods.net/member.php?u=246029) for help with coding and testing
