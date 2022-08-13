@@ -2,7 +2,7 @@
 
 [AlliedModders thread](https://forums.alliedmods.net/showthread.php?t=339058)
 
-Fixes an exploit where players can "speedhack" to skip or break progress triggers, consume no stamina, and other actions that relies on game time being accurate.
+Fixes an exploit where players can "speedhack" to perform actions instantly, consume no stamina, and other actions that relies on game time being accurate.
 
 ## Installation
 - Upgrade to Sourcemod 1.11 or higher, else install [DHooks2](https://github.com/peace-maker/DHooks2/releases) 
