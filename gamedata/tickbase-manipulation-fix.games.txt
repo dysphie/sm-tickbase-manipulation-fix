@@ -38,4 +38,14 @@
             }
         }
 	}
+	"tf"
+	{
+		"Signatures"
+		{
+			"CPlayerMove::RunCommand"
+			{
+				"windows"		"\x55\x8B\xEC\x83\xEC\x1C\x56\x57\x8B\x7D\x08\x89\x4D\xFC\x8B\xB7\x2A\x08\x00\x00"
+			}
+		}
+	}
 }
