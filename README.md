@@ -25,6 +25,9 @@ Cvars should be modified in `cfg/plugin.tickbase-manipulation-fix.cfg`
 ## Game Support
 - No More Room in Hell
 - Team Fortress 2
+- Contagion
+- Pirates, Vikings, and Knights II
+- Day of Defeat: Source
 - Any other game where the current signature matches, I guess
 
 If you want support for your game please [submit a pull request](https://github.com/dysphie/sm-tickbase-manipulation-fix/pulls) with valid gamedata or [open an issue](https://github.com/dysphie/sm-tickbase-manipulation-fix/issues). Hint: The signature for `"CPlayerMove::RunCommand"` can be found in a disassembler by searching for the string `"sv_maxusrcmdprocessticks_warning at server tick %u:"`
