@@ -3,6 +3,7 @@
 Fixes an exploit where players can "speedhack" to skip or break progress triggers, consume no stamina, and other actions that relies on game time being accurate.
 
 ## Installation
+- Upgrade to Sourcemod 1.11 or higher, else install [DHooks2](https://github.com/peace-maker/DHooks2/releases) 
 - Download the latest zip in [releases](https://github.com/dysphie/nmrih-tickbase-fix/releases)
 - Extract contents into `addons/sourcemod`
 - Refresh your plugin list (`sm plugins refresh` in server console)
