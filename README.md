@@ -2,7 +2,9 @@
 
 [AlliedModders thread](https://forums.alliedmods.net/showthread.php?t=339058)
 
+
 Fixes an exploit where players can manipulate game time to perform actions instantly (using progress triggers, detonating grenades, firing, etc.)
+**If you experience rubberbanding increase `sm_tickbase_shift_max_seconds`**
 
 ## Installation
 - Upgrade to Sourcemod 1.11 or higher, else install [DHooks2](https://github.com/peace-maker/DHooks2/releases) 
