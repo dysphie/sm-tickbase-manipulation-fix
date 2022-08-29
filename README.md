@@ -22,7 +22,7 @@ Cvars should be modified in `cfg/plugin.tickbase-manipulation-fix.cfg`
 - `sm_tickbase_shift_log_seconds` (Default: 25)
   - Logs the name and steamID of clients that are ahead of server time by more than this many seconds. Set to 0 to disable
     
-    **Important note: A detection does not mean a client is cheating**. However, repeated offenses in a short period most certainly do 
+    **Important note: A detection does not mean a client is cheating. Legit players will have logs** due to packet loss, server choke, etc. It's left to your discretion to analyze this data and act on it accordingly. 
   
 ## Game Support
 - No More Room in Hell
