@@ -38,7 +38,7 @@ Cvars should be modified in `cfg/plugin.tickbase-manipulation-fix.cfg`
 
 If you want support for your game please [submit a pull request](https://github.com/dysphie/sm-tickbase-manipulation-fix/pulls) with valid gamedata or [open an issue](https://github.com/dysphie/sm-tickbase-manipulation-fix/issues). 
 
-<sup>Hint: The signature for `CPlayerMove::RunCommand` can sometimes be found by searching for the string `"sv_maxusrcmdprocessticks_warning at server tick %u:"` in a disassembler<sup>. It also references `sv_noclipduringpause`
+<sup>Hint: The signature for `CPlayerMove::RunCommand` can sometimes be found by searching for the string `"sv_maxusrcmdprocessticks_warning at server tick %u:"` in a disassembler. It also references `sv_noclipduringpause`<sup>
 
 ## Special thanks
 - [backwards](https://forums.alliedmods.net/member.php?u=246029) for help with coding and testing
