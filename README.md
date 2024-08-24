@@ -33,7 +33,8 @@ Cvars should be modified in `cfg/plugin.tickbase-manipulation-fix.cfg`
 - Contagion
 - Pirates, Vikings, and Knights II
 - Day of Defeat: Source
--  Zombie Panic Source (2.4 only)
+- Zombie Panic Source (2.4 only)
+- Counter-Strike: Source
 - Any other game where the current signature matches, I guess
 
 If you want support for your game please [submit a pull request](https://github.com/dysphie/sm-tickbase-manipulation-fix/pulls) with valid gamedata or [open an issue](https://github.com/dysphie/sm-tickbase-manipulation-fix/issues). 
